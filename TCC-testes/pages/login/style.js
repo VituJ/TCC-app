@@ -4,11 +4,27 @@ export default styles = StyleSheet.create({
       flex: 1,
       alignItems: 'center',
       justifyContent: 'center',
+      paddingBottom: '30px',
+      width: '100%',
+      height: '100%'
     },
-  
+    
+    image_background: {
+      height: '100%',
+      width: '100%',
+      justifyContent: 'center'
+    },
+    
+    home: {
+      top: '-20%',
+      alignItems: 'center',
+      justifyContent: 'center',
+      paddingEnd: 0,
+    }, /**/
+    
     logo: {
-      width: 130,
-      height: 130,
+      width: 150,
+      height: 90
     },  
 
     userprofile: {
@@ -21,12 +37,5 @@ export default styles = StyleSheet.create({
       height: 100,
     },  
   
-    image_background: {
-      height: '100%',
-      width: '100%',
-      alignItems: 'center',
-      justifyContent: 'center'
-    }
-  
-  });
+});
   
